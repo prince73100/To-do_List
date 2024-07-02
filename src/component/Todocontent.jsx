@@ -22,7 +22,7 @@ function Todocontent({ todoItem, todoDates }) {
     return <div className="row kg-row">
         <div className="col-2">
             <Popup trigger={<button className="btn btn-success  kg-button"><MdModeEdit /></button>}>
-                <div className="card popup_card" style={{ width: "70%", marginLeft: "150px" }}>
+                <div className="card popup_card" style={{ width: "68%", marginLeft: "180px" }}>
                     <div className="card-body">
                         <div>
                             <div className="mb-3">
