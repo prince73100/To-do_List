@@ -1,0 +1,32 @@
+.todo-container{
+    margin-top: 20px;
+}
+hr{
+    width: 20%;
+    background-color: rgb(244, 14, 14);
+    height: 7px;
+}
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-shadow: 15px 0 13px #2ec1ad, 15px 0 15px #f01313 ,10px 0 12px rgb(157, 255, 0);
+}
+input{
+    width: 100%;
+}
+.item-container{
+    text-align: left;
+}
+.kg-button{
+    min-width: 80px;
+}
+.kg-row{
+    margin: 10px 5px;
+}
+@media screen and (max-width:500px) {
+    .item-container{
+        background-color: #f01313;
+    }
+}
