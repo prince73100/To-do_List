@@ -26,7 +26,22 @@ input{
     margin: 10px 5px;
 }
 @media screen and (max-width:500px) {
-    .item-container{
-        background-color: #f01313;
+    .kg-button{
+        min-width: 10px;
+    }
+    .text-sizes{
+        font-size: 12px;
+    }
+    .popup_card{
+       min-width: 200px;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .kg-button{
+        min-width: 10px;
+    }
+    .text-sizes{
+        font-size: 12px;
     }
 }
